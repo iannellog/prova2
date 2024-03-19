@@ -6,7 +6,7 @@ class Activity:
     Represents an activity
     """
     def __init__(self, description: str, start_time: datetime, end_time: datetime):
-        pass
+        self.description = description
 
 
     def start_time(self) -> datetime:
