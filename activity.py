@@ -9,6 +9,7 @@ class Activity:
         self._description = description
 
 
+
     def start_time(self) -> datetime:
         """
          :return: Date time when the activity starts
